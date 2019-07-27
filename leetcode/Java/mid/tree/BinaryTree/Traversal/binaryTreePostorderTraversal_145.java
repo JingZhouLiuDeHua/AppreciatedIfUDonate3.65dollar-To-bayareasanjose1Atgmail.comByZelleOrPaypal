@@ -1,4 +1,4 @@
-package leetcode.mid.BinaryTree.Traversal;
+package leetcode.mid.tree.BinaryTree.Traversal;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

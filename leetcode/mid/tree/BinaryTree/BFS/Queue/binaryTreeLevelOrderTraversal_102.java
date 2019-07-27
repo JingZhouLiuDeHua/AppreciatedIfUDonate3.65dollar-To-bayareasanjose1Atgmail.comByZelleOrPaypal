@@ -1,4 +1,4 @@
-package leetcode.tree.BinaryTree.BFS.Queue;
+package leetcode.mid.tree.BinaryTree.BFS.Queue;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;

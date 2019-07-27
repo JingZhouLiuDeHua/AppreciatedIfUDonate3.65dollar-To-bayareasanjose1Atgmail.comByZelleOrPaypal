@@ -1,4 +1,4 @@
-package leetcode.tree.BinaryTree.BFS.Recursive;
+package leetcode.mid.tree.BinaryTree.BFS.Recursive;
 import java.util.ArrayList;
 import java.util.List;
 

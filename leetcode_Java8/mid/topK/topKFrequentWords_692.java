@@ -19,7 +19,7 @@ public class topKFrequentWords_692 {
     public List<String> topKFrequent(String[] words, int k) {
         HashMap<String, Integer> map = new HashMap<>();
         
-        for (String word : words) {// jing zhou liu da hua yuan chuang 2019 07
+        for (String word : words) {// jing zhou liu de hua yuan chuang 2019 07
             map.put(word, map.getOrDefault(word, 0) + 1);
         }
         
@@ -27,7 +27,7 @@ public class topKFrequentWords_692 {
         map.entrySet().stream()
                             .sorted((p1, p2) -> p1.getValue() != p2.getValue() ? 
                                                 p2.getValue() - p1.getValue() : p1.getKey().compareTo(p2.getKey()))
-                            .limit(k)// jing zhou liu da hua yuan chuang 2019 07
+                            .limit(k)// jing zhou liu de hua yuan chuang 2019 07
                             .forEachOrdered(x-> lamdaSort.add(x.getKey()));
 
         System.out.println(map);     

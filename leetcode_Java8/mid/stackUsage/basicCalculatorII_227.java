@@ -12,7 +12,7 @@ public class basicCalculatorII_227 {
         int len = s.length();
         Deque<Integer> stack = new ArrayDeque<>();
         int num = 0;
-        char sign = '+';// jing zhou liu da hua yuan chuang 2019 07
+        char sign = '+';// jing zhou liu de hua yuan chuang 2019 07
         for (int i = 0; i < len; i++) {
             if (Character.isDigit(s.charAt(i))) {
                 num = num * 10 + s.charAt(i) - '0';
@@ -26,7 +26,7 @@ public class basicCalculatorII_227 {
                     stack.addLast(stack.pollLast() / num);
                 } else if (sign == '*') {
                     stack.addLast(stack.pollLast() * num);
-                }// jing zhou liu da hua yuan chuang 2019 07
+                }// jing zhou liu de hua yuan chuang 2019 07
                 sign = s.charAt(i);
                 num = 0;
             }

@@ -1,4 +1,4 @@
-package leetcode.mid.DP.oneD;
+package leetcode.mid.DP.oneDimension;
 
 import java.util.ArrayList;
 import java.util.List;

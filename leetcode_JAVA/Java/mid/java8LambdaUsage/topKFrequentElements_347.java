@@ -1,4 +1,4 @@
-package leetcode.mid.UseJava8Lambda;
+package leetcode.mid.java8LambdaUsage;
 
 import java.util.ArrayList;
 import java.util.HashMap;

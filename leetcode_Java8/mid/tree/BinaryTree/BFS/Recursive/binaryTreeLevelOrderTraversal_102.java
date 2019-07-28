@@ -11,7 +11,7 @@ public class binaryTreeLevelOrderTraversal_102 {
 	     List<List<Integer>> result = new ArrayList<List<Integer>>();
 
 	        levelRecursion(root, result, 0);
-
+	     // jing zhou liu da hua yuan chuang 2019 07
 	        return result;
 	    }
 
@@ -20,7 +20,7 @@ public class binaryTreeLevelOrderTraversal_102 {
 	        if (node == null) {
 	            return;
 	        }
-	        if (result.size() < level + 1) {// 说明还需�?添加一行
+	        if (result.size() < level + 1) {// jing zhou liu da hua yuan chuang 2019 07
 	            result.add(new ArrayList<Integer>());
 	        }
 	        result.get(level).add(node.val);

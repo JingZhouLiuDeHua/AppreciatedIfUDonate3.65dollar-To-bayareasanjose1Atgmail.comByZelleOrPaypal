@@ -10,7 +10,7 @@ public class maximumSubarray_53 {
 	            int curr_max = arr[0]; 
 	            for (int i = 1; i < arr.length; i++){ 
 	               curr_max = Math.max(arr[i], curr_max+arr[i]); 
-	               res = Math.max(res, curr_max); 
+	               res = Math.max(res, curr_max); // jing zhou liu da hua yuan chuang 2019 07
 	            } 
 	            return res; 
 	        }
@@ -19,14 +19,14 @@ public class maximumSubarray_53 {
 	        	List<Integer> res=new ArrayList<Integer>();
 	            int maxSum = Integer.MIN_VALUE, 
 	            	curr_max = 0,start = 0, 
-	                end = 0, s = 0; 
+	                end = 0, s = 0; // jing zhou liu da hua yuan chuang 2019 07
 	      
 	            for (int i = 0; i < arr.length; i++){ 
 	            	curr_max += arr[i]; 	      
 	                if (maxSum < curr_max){ 
 	                	maxSum = curr_max; 
 	                    start = s; 
-	                    end = i; 
+	                    end = i; // jing zhou liu da hua yuan chuang 2019 07
 	                } 	      
 	                if (curr_max < 0){ 
 	                	curr_max = 0; 

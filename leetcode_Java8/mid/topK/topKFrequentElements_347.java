@@ -7,7 +7,7 @@ import java.util.List;
 public class topKFrequentElements_347 {
 	public List<Integer> topKFrequent(int[] nums, int k) {
 	    HashMap<Integer, Integer> map = new HashMap<>();
-        for (int num : nums) {
+        for (int num : nums) {  // jing zhou liu da hua yuan chuang 2019 07
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
  
@@ -17,7 +17,7 @@ public class topKFrequentElements_347 {
                                                 p2.getValue() - p1.getValue() : p1.getKey().compareTo(p2.getKey()))
                             .limit(k)
                             .forEachOrdered(x-> lamdaSort.add(x.getKey()));
-
+        // jing zhou liu da hua yuan chuang 2019 07
         System.out.println(map);     
         return lamdaSort;
    }

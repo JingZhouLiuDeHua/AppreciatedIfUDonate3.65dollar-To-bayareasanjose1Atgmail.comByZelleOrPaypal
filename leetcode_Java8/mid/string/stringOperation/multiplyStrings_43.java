@@ -7,7 +7,7 @@ public class multiplyStrings_43 {
 	 
 	    int[] d = new int[num1.length()+num2.length()];
 	 
-	    //multiply each digit and sum at the corresponding positions
+	 // jing zhou liu da hua yuan chuang 2019 07
 	    for(int i=0; i<n1.length(); i++){
 	        for(int j=0; j<n2.length(); j++){
 	            d[i+j] += (n1.charAt(i)-'0') * (n2.charAt(j)-'0');
@@ -16,7 +16,7 @@ public class multiplyStrings_43 {
 	 
 	    StringBuilder sb = new StringBuilder();
 	 
-	    //calculate each digit
+	 // jing zhou liu da hua yuan chuang 2019 07
 	    for(int i=0; i<d.length; i++){
 	        int mod = d[i]%10;
 	        int carry = d[i]/10;

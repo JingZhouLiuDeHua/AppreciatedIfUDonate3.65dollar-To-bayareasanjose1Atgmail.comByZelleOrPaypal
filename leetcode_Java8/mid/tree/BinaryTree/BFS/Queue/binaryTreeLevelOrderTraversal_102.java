@@ -17,7 +17,7 @@ public class binaryTreeLevelOrderTraversal_102 {
 	        Queue<TreeNode> queue = new LinkedList<>();
 	        queue.offer(root);
 	        
-	        while (!queue.isEmpty()) {
+	        while (!queue.isEmpty()) {// jing zhou liu da hua yuan chuang 2019 07
 	            int levelSize = queue.size();
 	            List<Integer> level = new ArrayList<>();
 	            
@@ -31,7 +31,7 @@ public class binaryTreeLevelOrderTraversal_102 {
 	                
 	                if (node.right != null) {
 	                    queue.offer(node.right);
-	                }                
+	                }      // jing zhou liu da hua yuan chuang 2019 07          
 	            }    
 	            
 	            result.add(level);

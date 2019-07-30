@@ -60,7 +60,7 @@ public class TestLambda {
     //if another client request comes, we need to modify just 1 line code,
     //emp.xxx xxx xxx
     // too poor/bad design,too many redundant code as below
-    public  List<Employee>  filterEmployees2(List<Employee> list){
+    public List<Employee>  filterEmployees2(List<Employee> list){
     	List<Employee> emps =new ArrayList<>();
     	for(Employee emp: list) {
     		if(emp.getSalary() >= 7777) {

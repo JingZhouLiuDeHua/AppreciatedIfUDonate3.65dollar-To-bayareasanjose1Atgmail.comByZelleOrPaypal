@@ -1,1 +1,1 @@
-talk is cheap,show u my CODE
+Good Good study, Day Day Up

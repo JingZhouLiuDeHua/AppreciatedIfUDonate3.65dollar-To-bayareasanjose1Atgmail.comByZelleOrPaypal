@@ -1,1 +1,1 @@
-Good Good study, Day Day Up
+You must defeat ShengLong to stand a chance
